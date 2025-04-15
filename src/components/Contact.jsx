@@ -132,7 +132,7 @@ const Contact = () => {
                 className="w-full bg-[#B60203] text-white font-bold py-3 rounded-lg hover:bg-[#B60203]/80  transition duration-300"
                 disabled={isSubmitted}
               >
-                {isSubmitting ? 'Submitting...' : 'Kirim Pesan'}
+                {isSubmitted ? 'Submitting...' : 'Kirim Pesan'}
               </button>
             </form>
           </div>
