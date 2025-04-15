@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'; // ← import useNavigate
 const Contact = () => {
   const webhookUrl = import.meta.env.VITE_WEBHOOK_URL;
   const navigate = useNavigate(); // ← initialize the hook
-
+  const [isSubmitted, setIsSubmitted] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -22,6 +22,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitted(true);
   
     try {
       // Send data to webhook
@@ -128,9 +129,10 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
-                className="w-full bg-[#B60203] text-white font-bold py-3 rounded-lg hover:bg-[#B60203] transition duration-300"
+                className="w-full bg-[#B60203] text-white font-bold py-3 rounded-lg hover:bg-[#B60203]/80  transition duration-300"
+                disabled={isSubmitted}
               >
-                Kirim Pesan
+                {isSubmitting ? 'Submitting...' : 'Kirim Pesan'}
               </button>
             </form>
           </div>
