@@ -38,17 +38,16 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Kontak</h3>
             <ul className="space-y-2">
-              <li><i className="fas fa-phone text-[#B60203] mr-2"></i> +62 812-3456-7890</li>
-              <li><i className="fas fa-envelope text-[#B60203] mr-2"></i> info@pitcar.com</li>
-              <li><i className="fas fa-map-marker-alt text-[#B60203] mr-2"></i> Jl. Raya Purwokerto, Jawa Tengah</li>
+              <li><i className="fas fa-phone text-[#B60203] mr-2"></i> +62-856-4760-9172</li>
+              <li><i className="fas fa-envelope text-[#B60203] mr-2"></i> franchise@pitcar.co.id</li>
+              <li><i className="fas fa-map-marker-alt text-[#B60203] mr-2"></i> Jl. Pancurawis No.14, Kec. Purwokerto Selatan, Banyumas, 53147</li>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Jam Operasional</h3>
             <ul className="space-y-2">
-              <li><span className="text-[#B60203]">Senin-Jumat:</span> 08:00 - 17:00</li>
-              <li><span className="text-[#B60203]">Sabtu:</span> 09:00 - 14:00</li>
-              <li><span className="text-[#B60203]">Minggu:</span> Tutup</li>
+              <li><span className="text-[#B60203]">Setiap Hari:</span> 08:00 - 17:00</li>
+              <li><span className="text-[#B60203]">Libur Nasional:</span> Libur</li>
             </ul>
           </div>
         </div>

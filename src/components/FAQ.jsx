@@ -8,11 +8,11 @@ const FAQ = () => {
     },
     {
       question: 'Berapa modal yang diperlukan?',
-      answer: 'Modal investasi bervariasi tergantung paket yang dipilih, mulai dari Rp 1,5M hingga Rp 2,1M.',
+      answer: 'Modal investasi bervariasi tergantung paket yang dipilih, mulai dari Rp 600jt hingga Rp 2,1M.',
     },
     {
       question: 'Berapa lama pengembalian modal?',
-      answer: 'Berdasarkan analisis keuangan terbaru, pengembalian modal diperkirakan antara 12-18 bulan.',
+      answer: 'Berdasarkan analisis keuangan terbaru, pengembalian modal diperkirakan sekitar 5 tahun.',
     },
     {
       question: 'Apa saja dukungan yang diberikan?',
