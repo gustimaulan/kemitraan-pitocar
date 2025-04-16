@@ -7,9 +7,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center mb-4">
-              <div className="bg-[#B60203] p-2 rounded-lg mr-3">
+              {/* <div className="bg-[#B60203] p-2 rounded-lg mr-3">
                 <i className="fas fa-car text-white text-2xl"></i>
-              </div>
+              </div> */}
               <h1 className="text-2xl font-bold text-white">PITCAR <span className="text-[#B60203]">Service</span></h1>
             </div>
             <p className="text-gray-400 mb-4">Bisnis bengkel mobil modern dengan sistem franchise yang terbukti sukses.</p>
