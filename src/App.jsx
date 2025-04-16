@@ -24,7 +24,7 @@ function App() {
     <>
     <Router>
       <Routes> 
-        <Route path="/" element={<div className='container justify-center max-w-6xl mx-auto'>
+        <Route path="/" element={<div className='justify-center mx-auto'>
           {/* <Header /> */}
           <Hero />
           <AboutFranchise />

@@ -3,7 +3,7 @@ import React from 'react'
 const FiveYearProjections = () => {
   return (
     <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 max-w-6xl">
             <div className="flex flex-col md:flex-row items-center gap-12">
                 <div className="md:w-1/2">
                     <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1415&q=80" alt="Proyeksi 5 Tahun" className="rounded-xl shadow-lg w-full"/>

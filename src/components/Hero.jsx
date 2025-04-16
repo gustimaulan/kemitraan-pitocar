@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <section className="hero text-white py-20 md:py-32">
-      <div className="container mx-auto px-4 text-center">
+      <div className="container mx-auto px-4 text-center max-w-6xl">
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
           Bisa Punya Bengkel <br />
           Tanpa Pusing Urus Operasional <br />

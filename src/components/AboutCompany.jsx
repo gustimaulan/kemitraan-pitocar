@@ -3,7 +3,7 @@ import React from 'react'
 const AboutCompany = () => {
   return (
     <section className="py-16 bg-gray-900 text-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 max-w-6xl">
             <div className="flex flex-col md:flex-row items-center gap-12">
                 <div className="md:w-1/2">
                     <h2 className="text-3xl md:text-4xl font-bold mb-6">Tentang <span className="text-[#B60203]">PITCAR Service</span></h2>
