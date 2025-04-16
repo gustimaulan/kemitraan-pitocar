@@ -1,4 +1,5 @@
 import React from 'react'
+import FranchisePitcarImage from '/src/images/franchise-pitcar-image.webp';
 
 const AboutFranchise = () => {
   const benefits = [
@@ -22,7 +23,7 @@ const AboutFranchise = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
             <img 
-              src="https://images.unsplash.com/photo-1584466977773-e625c37cdd50" 
+              src={FranchisePitcarImage}
               alt="Bengkel PITCAR" 
               className="rounded-xl shadow-lg w-full"
             />

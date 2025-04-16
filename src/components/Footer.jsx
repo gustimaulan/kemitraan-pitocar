@@ -14,14 +14,11 @@ const Footer = () => {
             </div>
             <p className="text-gray-400 mb-4">Bisnis bengkel mobil modern dengan sistem franchise yang terbukti sukses.</p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://www.facebook.com/pitcarservice" className="text-gray-400 hover:text-white">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://instagram.com/pitcar.service" className="text-gray-400 hover:text-white">
                 <i className="fab fa-instagram"></i>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <i className="fab fa-twitter"></i>
               </a>
             </div>
           </div>

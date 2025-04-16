@@ -16,6 +16,7 @@ import FiveYearProjections from './components/FiveYearProjections'
 import Process from './components/Process'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import ThankYou from './ThankYou'
+import FloatingButton from './components/FloatingButton'
 
 
 function App() {
@@ -23,8 +24,8 @@ function App() {
     <>
     <Router>
       <Routes> 
-        <Route path="/" element={<>
-          <Header />
+        <Route path="/" element={<div className='container justify-center max-w-6xl mx-auto'>
+          {/* <Header /> */}
           <Hero />
           <AboutFranchise />
           <MarketPotential />
@@ -37,7 +38,8 @@ function App() {
           <FAQ />
           <Contact />
           <Footer />
-        </>}
+          <FloatingButton />
+        </div>}
         />
         <Route path="/thankyou" element={<ThankYou />} />
       </Routes>
