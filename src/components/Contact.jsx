@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ReactPixel from 'react-facebook-pixel';
+import ScalevForm from './ScalevForm';
 
 const Contact = () => {
   const webhookUrl = import.meta.env.VITE_WEBHOOK_URL;
@@ -99,9 +100,8 @@ const Contact = () => {
                         </div>
                     </div>
           </div>
-          <div className="md:w-1/2">
+          {/* <div className="md:w-1/2">
             <form onSubmit={handleSubmit} className="bg-gray-50 p-8 rounded-xl shadow-md">
-              {/* All form fields unchanged */}
               <div className="mb-6">
                 <label htmlFor="name" className="block text-gray-700 font-medium mb-2">
                   Nama Lengkap
@@ -170,6 +170,9 @@ const Contact = () => {
                 {isSubmitted ? 'Submitting...' : 'Kirim Pesan'}
               </button>
             </form>
+          </div> */}
+          <div>
+          <ScalevForm />
           </div>
         </div>
       </div>

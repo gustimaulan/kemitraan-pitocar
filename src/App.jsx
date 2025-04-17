@@ -44,7 +44,7 @@ function App() {
           <FAQ />
           <Contact />
           <Footer />
-          <FloatingButton />
+          {/* <FloatingButton /> */}
         </>}
         />
         <Route path="/thankyou" element={<ThankYou />} />
