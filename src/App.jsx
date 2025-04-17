@@ -17,15 +17,21 @@ import Process from './components/Process'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import ThankYou from './ThankYou'
 import FloatingButton from './components/FloatingButton'
-
+import { initFacebookPixel } from './tracking/metaPixel';
+import { useEffect } from 'react';
 
 function App() {
+  
+  useEffect(() => {
+    initFacebookPixel();
+  }, []);
+
   return (
     <>
     <Router>
       <Routes> 
-        <Route path="/" element={<div className='justify-center mx-auto'>
-          {/* <Header /> */}
+        <Route path="/" element={<>
+          <Header />
           <Hero />
           <AboutFranchise />
           <MarketPotential />
@@ -39,7 +45,7 @@ function App() {
           <Contact />
           <Footer />
           <FloatingButton />
-        </div>}
+        </>}
         />
         <Route path="/thankyou" element={<ThankYou />} />
       </Routes>

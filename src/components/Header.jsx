@@ -7,9 +7,6 @@ const Header = () => {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center max-w-6xl">
         <div className="flex items-center">
-          <div className="bg-[#B60203] p-2 rounded-lg mr-3">
-            <i className="fas fa-car text-white text-2xl"></i>
-          </div>
           <h1 className="text-2xl font-bold text-gray-800">PITCAR <span className="text-[#B60203]">Service</span></h1>
         </div>
         <nav className="hidden md:flex space-x-8">

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // ← import useNavigate
+import { useNavigate } from 'react-router-dom';
+import ReactPixel from 'react-facebook-pixel';
 
 const Contact = () => {
   const webhookUrl = import.meta.env.VITE_WEBHOOK_URL;
@@ -42,6 +43,11 @@ const Contact = () => {
         phone: '',
         package: '',
       });
+
+      // Track "Lead" event
+    ReactPixel.track('Lead', {
+      content_name: 'Contact Form',
+    });
   
       // Redirect to thank you page
       navigate('/thankyou');
@@ -63,32 +69,32 @@ const Contact = () => {
             <p className="text-gray-600 mb-8">
               Isi formulir berikut untuk mendapatkan informasi lebih lanjut tentang franchise PITCAR Service. Tim kami akan segera menghubungi Anda.
             </p>
-            <div class="space-y-6 mb-8">
-                        <div class="flex items-start">
-                            <div class="bg-[#B60203] p-3 rounded-lg mr-4">
-                                <i class="fas fa-map-marker-alt text-white"></i>
+            <div className="space-y-6 mb-8">
+                        <div className="flex items-start">
+                            <div className="bg-[#B60203] p-3 rounded-lg mr-4">
+                                <i className="fas fa-map-marker-alt text-white"></i>
                             </div>
                             <div>
-                                <h4 class="font-bold text-gray-800">Kantor Pusat</h4>
-                                <p class="text-gray-600">Jl. Pancurawis No.14, Kec. Purwokerto Selatan, Banyumas, Jawa Tengah, 53147                                </p>
+                                <h4 className="font-bold text-gray-800">Kantor Pusat</h4>
+                                <p className="text-gray-600">Jl. Pancurawis No.14, Kec. Purwokerto Selatan, Banyumas, Jawa Tengah, 53147                                </p>
                             </div>
                         </div>
-                        <div class="flex items-start">
-                            <div class="bg-[#B60203] p-3 rounded-lg mr-4">
-                                <i class="fa-brands fa-whatsapp-square text-white"></i>
+                        <div className="flex items-start">
+                            <div className="bg-[#B60203] p-3 rounded-lg mr-4">
+                                <i className="fa-brands fa-whatsapp-square text-white"></i>
                             </div>
                             <div>
-                                <h4 class="font-bold text-gray-800">WhatsApp</h4>
-                                <p class="text-gray-600">+62-856-4760-9172</p>
+                                <h4 className="font-bold text-gray-800">WhatsApp</h4>
+                                <p className="text-gray-600">+62-856-4760-9172</p>
                             </div>
                         </div>
-                        <div class="flex items-start">
-                            <div class="bg-[#B60203] p-3 rounded-lg mr-4">
-                                <i class="fas fa-envelope text-white"></i>
+                        <div className="flex items-start">
+                            <div className="bg-[#B60203] p-3 rounded-lg mr-4">
+                                <i className="fas fa-envelope text-white"></i>
                             </div>
                             <div>
-                                <h4 class="font-bold text-gray-800">Email</h4>
-                                <p class="text-gray-600">franchise@pitcar.co.id</p>
+                                <h4 className="font-bold text-gray-800">Email</h4>
+                                <p className="text-gray-600">franchise@pitcar.co.id</p>
                             </div>
                         </div>
                     </div>
