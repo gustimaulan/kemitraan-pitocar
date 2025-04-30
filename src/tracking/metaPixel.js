@@ -2,6 +2,7 @@ import ReactPixel from 'react-facebook-pixel';
 
 const options = {
   autoConfig: false, 
+  autoLogAppEvents: false,
   debug: false,     
 };
 
