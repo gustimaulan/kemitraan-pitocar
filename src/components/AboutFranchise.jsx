@@ -1,4 +1,3 @@
-import React from 'react'
 import FranchisePitcarImage from '/src/images/franchise-pitcar-image.webp';
 
 const AboutFranchise = () => {
@@ -12,8 +11,8 @@ const AboutFranchise = () => {
       description: 'Standar operasional yang teruji untuk memastikan kualitas layanan',
     },
     {
-      title: 'Pendampingan Bisnis',
-      description: 'Tim ahli siap membantu Anda dari awal hingga operasional',
+      title: 'Bisnis Autopilot',
+      description: 'Tim ahli siap menghandle semua proses operasional, Anda cukup menikmati hasil',
     },
   ];
 

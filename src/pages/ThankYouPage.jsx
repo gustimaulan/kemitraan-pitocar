@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ThankYou = () => {
+const ThankYouPage = () => {
   return (
     // align text center vertically
     <div className='text-2xl pt-10 text-center'>
@@ -11,4 +11,4 @@ const ThankYou = () => {
   )
 }
 
-export default ThankYou
+export default ThankYouPage

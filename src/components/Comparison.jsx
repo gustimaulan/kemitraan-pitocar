@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Comparison = () => {
   const franchiseBenefits = [
     'Sistem siap pakai dengan SOP teruji',

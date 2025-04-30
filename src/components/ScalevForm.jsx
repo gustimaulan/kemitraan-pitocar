@@ -1,7 +1,6 @@
 import { useEffect, useRef } from "react";
 
 const ScalevForm = () => {
-  //const webhookUrl = import.meta.env.VITE_WEBHOOK_URL;
   const iframeRef = useRef(null);
   useEffect(() => {
     const iframe = iframeRef.current;
@@ -48,16 +47,6 @@ const ScalevForm = () => {
           if (message.type === "resize") {
             resizeIframe(message.height);
           }
-
-          // 🔔 Send the message data to Make.com webhook
-          // fetch(webhookUrl, {
-          //   method: 'POST',
-          //   headers: { 'Content-Type': 'application/json' },
-          //   body: JSON.stringify({
-          //     event: 'message_from_iframe',
-          //     data: message,
-          //   }),
-          // });
         }
       }
     }
@@ -84,7 +73,7 @@ const ScalevForm = () => {
   }, []);
 
   return (
-    <div className="w-full pt-4 px-6 pb-8 rounded-2xl border border-gray-200 shadow-xl">
+    <div className="container mx-auto max-w-2xl pt-4 px-6 pb-8 rounded-2xl border border-gray-200 shadow-xl">
       <iframe
         id="myiframe"
         ref={iframeRef}

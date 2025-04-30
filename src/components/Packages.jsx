@@ -1,4 +1,3 @@
-import React from 'react'
 import basicPackageImage from '/src/images/basic-package-image.jpg';
 import advancePackageImage from '/src/images/advance-package-image.jpg';
 import completePackageImage from '/src/images/complete-package-image.jpg';

@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Hero = () => {
   return (
     <section className="hero text-white py-20 md:py-32">

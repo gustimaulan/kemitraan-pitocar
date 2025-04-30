@@ -1,5 +1,3 @@
-import React from 'react'
-
 const FiveYearProjections = () => {
   return (
     <section className="py-16 bg-white">

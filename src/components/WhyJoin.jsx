@@ -1,9 +1,5 @@
-import React from 'react'
-
 const WhyJoin = () => {
   return (
-    
-  
   <section id="why" className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-6xl">
             <div className="text-center mb-12">
