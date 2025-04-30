@@ -11,6 +11,7 @@ import Process from "../components/Process";
 import FAQ from "../components/FAQ";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import FloatingButton from "../components/FloatingButton";
 
 const Home = () => {
 
@@ -29,6 +30,7 @@ const Home = () => {
       <FAQ />
       <Contact />
       <Footer />
+      <FloatingButton />
     </>
   );
 };
