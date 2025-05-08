@@ -5,9 +5,9 @@ const Contact = () => {
 
   // // Convert current searchParams to a string
   // const queryString = searchParams.toString();
-  const handleButtonClick = () => {
-   window.fbq("track", "AddToCart");
-  };
+  // const handleButtonClick = () => {
+  //  window.fbq("track", "AddToCart");
+  // };
 
   return (
     <section id="contact" className="py-16 bg-white">
@@ -27,7 +27,6 @@ const Contact = () => {
             <a
               href="whatsapp://send?phone=6285647609172&text=halo%20Mincar%2C%20mohon%20info%20detail%20franchise%20Pitcar%20dong"
               className="rounded-md md:right-10 bg-green-700 hover:bg-green-800  text-white font-bold py-3 px-8 text-lg transition duration-300 animate-bounce"
-              onClick={handleButtonClick}
             >
               <i className="fa-brands fa-whatsapp"></i>
               <span className="ml-2">Chat Admin Sekarang</span>
