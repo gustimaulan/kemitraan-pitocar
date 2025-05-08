@@ -1,13 +1,5 @@
-// import { useSearchParams, Link } from "react-router-dom";
-
 const Contact = () => {
-  // const [searchParams] = useSearchParams();
-
-  // // Convert current searchParams to a string
-  // const queryString = searchParams.toString();
-  // const handleButtonClick = () => {
-  //  window.fbq("track", "AddToCart");
-  // };
+  
 
   return (
     <section id="contact" className="py-16 bg-white">
