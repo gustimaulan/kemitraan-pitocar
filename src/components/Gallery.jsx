@@ -1,27 +1,33 @@
+import pitcarFasad from '../images/pitcar-fasad.webp';
+import pitcarRuangTunggu from '../images/pitcar-ruang-tunggu.webp';
+import pitcarStall from '../images/pitcar-stall.webp';
+import pitcarStall2 from '../images/pitcar-stall-2.webp';
+import franchisePitcar from '../images/franchise-pitcar-image.webp';
+
 const Gallery = () => {
   // PITCAR Service images
   const galleryImages = [
     {
       id: 1,
-      src: '/src/images/pitcar-fasad.webp',
+      src: pitcarFasad,
       alt: 'PITCAR Service - Fasade Bengkel',
       title: 'Fasad Bengkel Modern'
     },
     {
       id: 2,
-      src: '/src/images/pitcar-ruang-tunggu.webp',
+      src: pitcarRuangTunggu,
       alt: 'PITCAR Service - Ruang Tunggu',
       title: 'Ruang Tunggu Nyaman'
     },
     {
       id: 3,
-      src: '/src/images/pitcar-stall.webp',
+      src: pitcarStall,
       alt: 'PITCAR Service - Stall Servis',
       title: 'Stall Servis Lengkap'
     },
     {
       id: 4,
-      src: '/src/images/pitcar-stall-2.webp',
+      src: pitcarStall2,
       alt: 'PITCAR Service - Stall Servis 2',
       title: 'Antrian Pengerjaan Servis'
     }
