@@ -21,3 +21,16 @@
   .timeline-step {
     position: relative;
   }
+  .gallery-item {
+    overflow: hidden;
+  }
+  .gallery-item img {
+    transition: transform 0.5s ease;
+  }
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+  .gallery-overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    transition: opacity 0.3s ease;
+  }

@@ -6,6 +6,7 @@ import AboutCompany from "../components/AboutCompany";
 import WhyJoin from "../components/WhyJoin";
 import Comparison from "../components/Comparison";
 import Packages from "../components/Packages";
+import Gallery from "../components/Gallery";
 import FiveYearProjections from "../components/FiveYearProjections";
 import Process from "../components/Process";
 import FAQ from "../components/FAQ";
@@ -25,6 +26,7 @@ const Home = () => {
       <WhyJoin />
       <Comparison />
       <Packages />
+      <Gallery />
       <FiveYearProjections />
       <Process />
       <FAQ />
